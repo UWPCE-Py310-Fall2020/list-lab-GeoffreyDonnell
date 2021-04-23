@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-#Below is all the series 1 functions
 def series1():
 	fruit_list = ['Apples','Pears','Oranges','Peaches']
 	print(fruit_list)
@@ -25,7 +24,6 @@ def series1():
 	return fruit_list
 pass
 
-#Below is the start of series 2 functions
 def series2(fruit_list):
 	print("Let's display the fruit list again")
 	print(fruit_list)
@@ -38,7 +36,6 @@ def series2(fruit_list):
 	print(fruit_list)
 pass
 
-#Below is the start of series 3 functions
 def series3(fruit_list):
 	#First lets lowercase everything
 	fruit_list = [fruit.lower() for fruit in fruit_list]
